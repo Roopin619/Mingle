@@ -1,0 +1,143 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.download-button {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+.phone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 2rem;
+}
+.navbar {
+  padding: 0 0 4rem;
+}
+.navbar-brand {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+  padding: 0 1.5rem;
+  font-size: 1.2rem;
+}
+.btn {
+  margin: 6% 3% 5% 0;
+  font-size: 1.2rem;
+}
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+#features {
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image {
+  width: 15%;
+  margin: 1.5rem;
+}
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3rem;
+}
+.press-logo {
+  width: 15%;
+  margin: 0 1.5rem;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  margin: 5rem;
+  text-align: center;
+}
+.pricing-column {
+  padding: 4% 3% 3%;
+}
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+}
+#cta h3 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  padding: 6% 12% 0;
+  line-height: 1.4;
+}
+#cta button {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 5% 1.5% 8%;
+}
+footer {
+  padding: 6% 15%;
+  text-align: center;
+}
+footer i {
+  padding: 3% 1.5%;
+}
+footer p {
+  font-size: 1rem;
+}
+
+
+@media (max-width: 995px) {
+  .phone {
+    transform: rotate(0);
+    position: relative;
+  }
+  #title {
+    text-align: center;
+  }
+}
